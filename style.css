@@ -63,7 +63,17 @@ main{
 }
 
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
-@media screen and (max-width:768px) {  
+@media screen and (max-width:768px) {
+  main{
+  width: 100%;
+}
   .step-box{
     float: none;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.step-box:last-child{
+  margin: 0 auto;
+}
 }
